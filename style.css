@@ -1,0 +1,38 @@
+.logoAlura{
+    margin: 60px;
+}
+
+.input-mensaje{
+    
+    color:white;
+    border: none;
+    background: none;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0 300px 0;
+}
+::placeholder{
+    color: white;
+}
+
+.encriptar{
+    display: inline-block;
+    color: white;
+    width: 280px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    margin: 350px 0px 200px 100px ;
+    border: #0A3871 2px;
+}
+
+.desencriptar{
+    display: inline-block;
+    color: #0A3871;
+    width: 280px;
+    height: 67px;
+    background: #D8DFE8;
+    border: #0A3871 2px;
+    border-radius: 24px;
+    margin: 0 0 0 50px;
+}
