@@ -1,21 +1,39 @@
+.input-mensaje, .encriptar, .desencriptar, .recuadro, footer{
+    font-family: 'Unbounded', cursive;
+}
+.recuadro .Ningun{
+    font-weight:bolder;
+}
+
+.recuadro .Ingresa {
+    font-weight: lighter;
+}
+
 .logoAlura{
     margin: 60px;
+    display: inline-block;
 }
 
 .input-mensaje{
-    
+    size: 680px;
     color:white;
     border: none;
     background: none;
     font-weight: bold;
     font-size: 1.5em;
-    margin: 0 300px 0;
+    margin: 0 100px 0;
+    width: 680px;
+    height:288px;
+    position: absolute;
 }
+
 ::placeholder{
     color: white;
 }
 
 .encriptar{
+    font-size: 1.5em;
+    font-weight: bold;
     display: inline-block;
     color: white;
     width: 280px;
@@ -27,6 +45,8 @@
 }
 
 .desencriptar{
+    font-size: 1.5em;
+    font-weight: bold;
     display: inline-block;
     color: #0A3871;
     width: 280px;
@@ -35,4 +55,32 @@
     border: #0A3871 2px;
     border-radius: 24px;
     margin: 0 0 0 50px;
+    position: relative;
+}
+
+.recuadro{
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+    height: 550px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: whitesmoke;
+    margin: 0 0 0 100px;
+    position:absolute;
+    top: 60px;
+}
+
+.world{
+    width: 336px;
+}
+
+.world, .Ningun, .Ingresa{
+    padding-top: 10%;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: #0A3871;
 }

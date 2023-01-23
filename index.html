@@ -9,11 +9,12 @@
   <title>Encriptador</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
-
- 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap" rel="stylesheet">
 </head>
 
-<body background="Imagenes/fondo.jpg" style="width:100%;" class="fondo" alt="coastline photo">
+<body background="Imagenes/fondo.jpg" style="width:100%; height: 100%;" class="fondo" alt="coastline photo">
  
   <header>
     <nav>
@@ -22,16 +23,21 @@
   </header>
  
   <main>
-    <input type="text" class="input-mensaje" required placeholder="Ingrese el texto aquí">
+      <input type="text" class="input-mensaje" required placeholder="Ingrese el texto aquí">
     <div>
-    <input type="submit" value="Encriptar" class="encriptar">
-    <input type="submit" value="Desencriptar" class="desencriptar">
+      <input type="submit" value="Encriptar" class="encriptar">
+      <input type="submit" value="Desencriptar" class="desencriptar">
+    <div class="recuadro" >
+      <img src="imagenes/world.png" class="world" alt="Imagen satelital del mundo"> 
+      <p class="Ningun">Ningún mensaje fue encontrado</p>
+      <p class="Ingresa">Ingresa el texto que quieras encriptar o desencrpitar</p>
+    </div>
 
   </div>
 
 </main>
   <footer>
-    <!--<p>Photo by NASA on Unsplash</p> -->
+    <!-- <p>Photo by NASA on Unsplash</p> -->
 
 </footer>
 
