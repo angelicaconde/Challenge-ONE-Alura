@@ -15,6 +15,9 @@
 </head>
 
 <body background="Imagenes/fondo.jpg" style="width:100%; height: 100%;" class="fondo" alt="coastline photo">
+  <script>
+  
+  </script>
  
   <header>
     <nav>
@@ -23,21 +26,30 @@
   </header>
  
   <main>
-      <input type="text" class="input-mensaje" required placeholder="Ingrese el texto aquí">
+    <section>
+      <textarea class="text" name="textarea" rows="8" cols="40" placeholder="Ingrese el texto aquí"></textarea>
     <div>
-      <input type="submit" value="Encriptar" class="encriptar">
-      <input type="submit" value="Desencriptar" class="desencriptar">
-    <div class="recuadro" >
+      <h6 class="leyenda">Solo letras minúsculas y sin acentos</h6>
+      <button class="encriptar">Encriptar</button>
+      <button value="Desencriptar" class="desencriptar">Desencriptar</button>
+    </div>
+    </section>
+    <section>
+      <textarea class="mensaje" cols="20" rows="10"></textarea>
+      <button class="copiar">Copiar</button>
+    </section>
+    <!-- <div id="recuadro">
       <img src="imagenes/world.png" class="world" alt="Imagen satelital del mundo"> 
       <p class="Ningun">Ningún mensaje fue encontrado</p>
       <p class="Ingresa">Ingresa el texto que quieras encriptar o desencrpitar</p>
-    </div>
+    </div> -->
 
   </div>
 
 </main>
   <footer>
-    <!-- <p>Photo by NASA on Unsplash</p> -->
+    <p>Website design by Angélica Conde</p>
+    <p>Photo by NASA on Unsplash</p>
 
 </footer>
 
