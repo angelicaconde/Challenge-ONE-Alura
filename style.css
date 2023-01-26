@@ -7,16 +7,18 @@ main{
     margin-bottom: 50px;
     margin-left: 80px;
 }
-.recuadro .Ningun{
+
+.Ningun{
     font-weight:bolder;
+    font-size: 1.2em;
 }
 
-.recuadro .Ingresa {
+.Ingresa {
     font-weight: lighter;
 }
 
 .logoAlura{
-    margin: 60px;
+    margin: 40px;
     display: inline-block;
 }
 
@@ -51,18 +53,6 @@ main{
     color: white;
 }
 
-.mensaje{
-    background: white;
-    background-image: url(imagenes/world.png);
-    background-repeat: no-repeat;
-    border: none;
-    border-radius: 24px;
-    color: #0A3871;
-    margin-left: 98px;
-    margin-top: 20px;
-    padding-left: 20px;
-    position: fixed;
-}
 
 .encriptar{
     font-size: 1.5em;
@@ -73,7 +63,7 @@ main{
     height: 67px;
     background: #0A3871;
     border-radius: 24px;
-    margin: 0px 0px 50px 100px ;
+    margin: 0px 0px 50px 30px ;
     border: #0A3871 2px;
 }
 
@@ -98,14 +88,28 @@ main{
 #recuadro{
     display: inline-block;
     text-align: center;
-    width: 400px;
+    width: 380px;
     height: 550px;
     box-sizing: border-box;
     border-radius: 10px;
     background: whitesmoke;
-    margin: 0 0 0 100px;
+    margin: 0 0 0 57%;
     position:absolute;
-    top: 40px;
+    top: 30px;
+}
+
+.mensaje{
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+    height: 550px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    background: whitesmoke;
+    margin: 0 0 0 6%;
+    position:absolute;
+    top: 30px;
 }
 
 .world{
@@ -130,7 +134,8 @@ footer{
     text-align: center;
     color: white;
     background-color: #0A3871;
-    padding: 1%;
+    padding: .8%;
+    margin: 0 0 0 0;
 }
 
 footer p{
