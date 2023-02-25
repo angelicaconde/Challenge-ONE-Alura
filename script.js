@@ -16,7 +16,7 @@ function validarTexto(){
 }
 
 // document.getElementById("recuadro").style.display = "none";
-function btnEncriptar(){
+function botonEncriptar(){
     if(!validarTexto()) {
         const textoEncriptado = encriptar(textArea.value)
         mensaje.value = textoEncriptado
@@ -50,14 +50,12 @@ function encriptar(stringEncriptada){
 }
 
 
-
-function btnDesencriptar(){
+function botonDesencriptar(){
     const textoEncriptado = desencriptar(textArea.value)
     mensaje.value = textoEncriptado
     textArea.value = "";
     
 }
-
 
 function desencriptar(stringDesencriptada){
     let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
@@ -76,7 +74,7 @@ function desencriptar(stringDesencriptada){
 
 function copiar(){
     mensaje.select();
-    navigator.clipboard.writeText(mensaje.value)
+    navigator.clipboard.writeText(textoEncriptado.value)
     mensaje.value = "";
     alert("Texto Copiado")
 }

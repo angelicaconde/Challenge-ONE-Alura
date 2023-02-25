@@ -45,6 +45,7 @@ main{
     color: #0A3871;
     text-transform: lowercase;
 }
+
 .text-area:focus{
     outline: none;
 }
@@ -54,7 +55,7 @@ main{
 }
 
 
-.btn-encriptar{
+.boton-enc{
     font-size: 1.5em;
     font-weight: bold;
     display: inline-block;
@@ -67,11 +68,13 @@ main{
     border: #0A3871 2px;
 }
 
-.leyenda{
+.informacion{
     padding: 0 0 2% 5%;
+    color: white;
+    text-shadow: black, 2px;
 }
 
-.btn-desencriptar{
+.boton-des{
     font-size: 1.5em;
     font-weight: bold;
     display: inline-block;
@@ -82,7 +85,7 @@ main{
     border: #0A3871 2px;
     border-radius: 24px;
     margin: 0 0 0 50px;
-    position: relative;
+    position: absolute;
 }
 
 #recuadro{
@@ -90,9 +93,10 @@ main{
     text-align: center;
     width: 380px;
     height: 550px;
-    box-sizing: border-box;
+    border: none;
+    /* box-sizing: border-box;
     border-radius: 10px;
-    background: whitesmoke;
+    background: whitesmoke; */
     margin: 0 0 0 57%;
     position:absolute;
     top: 30px;
@@ -100,6 +104,9 @@ main{
 
 .mensaje{
     display: inline-block;
+    padding-top: 1.5em;
+    font-size: 1.5em;
+    color: #0A3871;
     text-align: center;
     width: 400px;
     height: 550px;
@@ -107,7 +114,7 @@ main{
     border: none;
     border-radius: 10px;
     background: whitesmoke;
-    margin: 0 0 0 6%;
+    margin: 0 0 0 56%;
     position:absolute;
     top: 30px;
 }
@@ -140,8 +147,8 @@ main{
     background: #D8DFE8;
     border: #0A3871 2px;
     border-radius: 24px;
-    margin: 300px 0 0 140px;
-    position: relative;
+    margin: -5% 0 0 61%;
+    position: absolute;
 }
 
 footer{
