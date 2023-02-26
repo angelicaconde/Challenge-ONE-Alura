@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,13 +11,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap" rel="stylesheet">
   <title>Encriptador</title>
 </head>
-<body background="Imagenes/fondo.jpg" style="width:100%; height: 100%;" class="fondo" alt="coastline photo">
+<body background="Imagenes/fondo.jpg" class="fondo" alt="coastline photo">
   <header>
       <img src="imagenes/VectorLogo Alura.png" class="logoAlura" href="logo alura">
   </header>
   <main>
-    <section>
-      <textarea class="text-area" rows="8" cols="40" placeholder="Ingrese el texto aquí"></textarea>
+    <section class="input">
+      <textarea autofocus class="text-area" rows="8" cols="30" placeholder="Ingrese el texto aquí"></textarea>
       <div>
           <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
       </div>
@@ -25,19 +25,19 @@
           <button class="boton-enc" onclick="botonEncriptar()">Encriptar</button>
           <button class="boton-des" onclick="botonDesencriptar()">Desencriptar</button>
       </div>
-    <section>
-    <textarea class="mensaje" cols="20" rows="10"></textarea>
+    <section class="cuadro-mensaje">
+    <textarea class="mensaje" id="mensaje" cols="20" rows="10"></textarea>
     <div>
-      <button class="copiar" onclick="copiar()">Copiar</button>
+      <button class="copiar" id="copiar" onclick="copiar()">Copiar</button>
     </div>
     </section>
-    <!-- <div id="recuadro">
+    <div id="recuadro">
       <img src="imagenes/world.png" class="world" alt="Imagen satelital del mundo"> 
       <p class="Ningun">Ningún mensaje fue encontrado</p>
       <p class="Ingresa">Ingresa el texto que quieras encriptar o desencrpitar</p>
-    </div> -->
+    </div>
 </main>
-  <footer>
+  <footer class="footer">
     <p>Website design by Angélica Conde</p>
     <p>Photo by NASA on Unsplash</p>
 </footer>

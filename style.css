@@ -162,3 +162,46 @@ footer{
 footer p{
     padding:4px;
 }
+
+@media screen and (max-width:480px){
+
+    .body{
+    width: auto;
+    }
+
+   .text-area {
+    max-width: 70%;
+   }
+
+    .input {
+        width: auto;
+    }
+
+    .input-mensaje, .boton-des, .boton-enc, #recuadro, .mensaje, .copiar, .text-area, .informacion{
+        position: static;
+        margin: auto;
+    }
+    #recuadro, .mensaje, .copiar {
+        width: auto;
+        margin: auto;
+        top:auto
+    }
+    
+    
+    #recuadro {
+        display: none;
+    }
+
+    .boton-des, .boton-enc{
+        width: auto;
+        position: static;
+        align-items: center;
+        margin: auto;
+        max-width: 80%;
+    }
+
+    .informacion {
+        max-width: 70;
+    }
+
+}
